@@ -1,0 +1,75 @@
+<html lang="fi">
+	<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="text/javascript" src="../../src/jquery-2.0.0.min.js"></script>		
+		<script type="text/javascript" src="../../src/jquery.hammer.min.js"></script>
+		<script type="text/javascript" src="../../src/ajaxqueue.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css"></link>
+		<script type="text/javascript" src="main.js"></script>
+		
+	</head>
+<body>
+	<div id="wrapper">
+		<div id="scroller">			
+			<div id="user-list-container">		
+				<div id="user-list">
+					<h1 id="logo">kyyla</h1>
+					
+				</div>
+			</div>
+
+			<div id="user-data-container">
+				
+
+				<div id="user-data">
+
+					<h2 id="username"></h2>
+					
+					<div id="tools"></div>
+
+						<h2>Luetut artikkelit</h2>
+						<h4>Luettujen artikkelien määrä / kategoria</h4>
+						<div id="category-readcount"  class="bar"></div>
+
+						<h2>Lukuaika</h2>
+						<h4>Kategorioihin käytetty lukuaika</h4>
+						<div id="category-readtime"  class="bar"></div>
+						
+						<h2>Luetut avainsanat</h2>					
+						<div id="read-keywords"  class="keyphrase-cloud"></div>
+
+
+					<h2>Kategoriat</h2>
+					<h4>Kategoriapainotukset käytetyn lukuajan & lukukertojen mukaan</h4>
+					<div id="recommended-categories" class="bar"></div>
+					
+					<h2></h2>
+					<h4>Yhdistetty painotus lukuajan, lukukertojen, avainsanojen sekä yleisesti luettujen kategorioiden mukaan</h4>
+					<div id="combined-recommended-categories" class="bar"></div>
+
+					<h2>Artikkelisuositukset</h2>
+					<h4>Avainsanojen perusteella</h4>
+					<div id="keyphrase-recommended-articles" class="bar"></div>
+					<h2></h2>
+					<h4>Painotettuna kategorioiden mukaan</h4>
+					<div id="recommended-articles" class="bar"></div>
+
+				</div>
+
+			</div>
+
+
+			<div id="article-container">
+				<div id="article">
+					<h2 class="article-header"></h2>
+					<p class="article-text"></p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+</body>
